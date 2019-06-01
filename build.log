@@ -1,0 +1,33 @@
+make[1]: вход в каталог «/home/alex/Android/src_kernel/android_kernel/a_kernel»
+  GEN     ./Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  Using .. as source for kernel
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+make[2]: «include/generated/mach-types.h» не требует обновления.
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+cameraisp drv by platform 
+*MTK_GPU_VERSION 1 = mali
+*MTK_PLATFORM: mt6735
+$CONFIG_MTK_GPU_COMMON_DVFS_SUPPORT is [y]
+*MTK_PLATFORM: mt6735
+*MTK_GPU_VERSION 2 = midgard
+*MTK_GPU_VERSION 3 = r12p1
+mali MTK evironment
+mali MTK evironment
+mali MTK evironment
+mali MTK evironment
+-= project path  ../drivers/misc/mediatek/imgsensor/src/mt6735/camera_project/mt6737m_35n/ =-
+imgsensor drv by platform gc5025_mipi_raw
+imgsensor drv by project 
+leds by platform
+"custom build secwidevinemdw"
+"Build widevine modular drm driver"
+"MTK_PATH_PLATFORM="
+  Kernel: arch/arm/boot/Image is ready
+  Kernel: arch/arm/boot/zImage is ready
+  Kernel: arch/arm/boot/zImage-dtb is ready
+make[1]: выход из каталога «/home/alex/Android/src_kernel/android_kernel/a_kernel»

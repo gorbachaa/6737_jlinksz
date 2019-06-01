@@ -1,0 +1,1 @@
+Link: ../../../../../arch/powerpc/lib/memcpy_power7.S

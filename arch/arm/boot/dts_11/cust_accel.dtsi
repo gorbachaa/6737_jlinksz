@@ -1,0 +1,43 @@
+cust_accel@0 {
+		compatible = "mediatek,mc3410";
+		i2c_num = <0x2>;
+		i2c_addr = <0x4c 0x0 0x0 0x0>;
+		direction = <0x0>;
+		power_id = <0xffff>;
+		power_vol = <0x0>;
+		firlen = <0x0>;
+		is_batch_supported = <0x0>;
+	};
+
+	cust_accel@1 {
+		compatible = "mediatek,mir3da";
+		i2c_num = <0x2>;
+		i2c_addr = <0x26 0x0 0x0 0x0>;
+		direction = <0x7>;
+		power_id = <0xffff>;
+		power_vol = <0x0>;
+		firlen = <0x0>;
+		is_batch_supported = <0x0>;
+	};
+
+	cust_accel@2 {
+		compatible = "mediatek,msa";
+		i2c_num = <0x2>;
+		i2c_addr = <0x20 0x0 0x0 0x0>;
+		direction = <0x6>;
+		power_id = <0xffff>;
+		power_vol = <0x0>;
+		firlen = <0x0>;
+		is_batch_supported = <0x0>;
+	};
+
+	cust_accel@3 {
+		compatible = "mediatek,icm206xx_accel";
+		i2c_num = <0x2>;
+		i2c_addr = <0x69 0x0 0x0 0x0>;
+		direction = <0x2>;
+		power_id = <0xffff>;
+		power_vol = <0x0>;
+		firlen = <0x0>;
+		is_batch_supported = <0x0>;
+	};
